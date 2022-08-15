@@ -16,9 +16,9 @@ Script name: <br><b>1_data_preparation.py</b> <br><br>
 | --------- | ------ | ------------------------------------------------------------------------------------- |
 | --dir     | string | Source image directory                                                                |
 | --split   | string | Percentage of train, validation, and test                                             |
-| --tile    | string | Tiliing size                                                                          |
-| --padding | string | Padding size (overlap)                                                                |
-| --verbose | string | To print system messages or not (0 or 1)                                              |
+| --tile    | int    | Tiliing size                                                                          |
+| --padding | int    | Padding size (overlap)                                                                |
+| --verbose | int    | To print system messages or not (0 or 1)                                              |
 | --density | string | Divides the images into low, medium, and high counts; ignored if no input is provided |
 
 <b>If without labels:</b><br>
