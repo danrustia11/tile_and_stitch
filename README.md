@@ -26,11 +26,11 @@ To print system messages or not (0 or 1) <br>
 Divides the images into low, medium, and high counts. Does not work if no input is provided. <br>
 Example: 10,30 (divides the images into LOW: c<10, MEDIUM: 10>=c>=30, HIGH: 30>c, where c is the count) <br>
 
-# If without labels:
+## If without labels:
 
 `python 1_data_preparation.py --dir E:\Research_data\2022_WA\base --tile 1200 --padding 200`
 
-# If with labels:
+## If with labels:
 
 [With density splitting]
 `python 1_data_preparation.py --dir "E:\Research_data\2022_CEA_B\base\train and validation" --tile 1200 --padding 200 --density 10,30`
