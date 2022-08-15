@@ -12,24 +12,14 @@ Prepares images with cut borders (fit for tiling) and tiled images. Labels are a
 
 Script name: <br><b>1_data_preparation.py</b> <br><br>
 
-| Arg | Input  | Description            |
-| --- | ------ | ---------------------- |
-| dir | string | Source image directory |
-
-Args: <br>
---dir [string] <br>
-Source image directory <br>
---split [list] <br>
-Percentage of train, validation, and test <br>
---tile [int] <br>
-Tiliing size <br>
---padding [int] <br>
-Padding size (overlap) <br>
---verbose [int] <br>
-To print system messages or not (0 or 1) <br>
---density [string] <br>
-Divides the images into low, medium, and high counts. Does not work if no input is provided. <br>
-Example: 10,30 (divides the images into LOW: c<10, MEDIUM: 10>=c>=30, HIGH: 30>c, where c is the count) <br>
+| Arg       | Input  | Description                                                                           |
+| --------- | ------ | ------------------------------------------------------------------------------------- |
+| --dir     | string | Source image directory                                                                |
+| --split   | string | Percentage of train, validation, and test                                             |
+| --tile    | string | Tiliing size                                                                          |
+| --padding | string | Padding size (overlap)                                                                |
+| --verbose | string | To print system messages or not (0 or 1)                                              |
+| --density | string | Divides the images into low, medium, and high counts; ignored if no input is provided |
 
 <b>If without labels:</b><br>
 
