@@ -28,12 +28,12 @@ Example: 10,30 (divides the images into LOW: c<10, MEDIUM: 10>=c>=30, HIGH: 30>c
 
 <b>If without labels:</b><br>
 
-`python 1_data_preparation.py --dir E:\Research_data\2022_WA\base --tile 1200 --padding 200`
+`python 1_data_preparation.py --dir [directory_name] --tile 1200 --padding 200`
 
 <b>If with labels:</b><br>
 
 [With density splitting]<br>
-`python 1_data_preparation.py --dir "E:\Research_data\2022_CEA_B\base\train and validation" --tile 1200 --padding 200 --density 10,30`
+`python 1_data_preparation.py --dir [directory_name] --tile 1200 --padding 200 --density 10,30`
 
 [Without density splitting]<br>
-`python 1_data_preparation.py --dir "E:\Research_data\2022_CEA_B\base\train and validation" --tile 1200 --padding 200`
+`python 1_data_preparation.py --dir [directory_name] --tile 1200 --padding 200`
