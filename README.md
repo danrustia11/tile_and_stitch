@@ -46,7 +46,7 @@ Script name: <br><b>1_data_preparation.py</b> <br><br>
 
 <b>If without labels:</b><br>
 
-<code>python 1_data_preparation.py --dir [directory_name] --tile 1200 --padding 200</code>
+`python 1_data_preparation.py --dir [directory_name] --tile 1200 --padding 200`
 
 <b>If with labels:</b><br>
 
