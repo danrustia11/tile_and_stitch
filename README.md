@@ -11,6 +11,11 @@ https://github.com/danrustia11/tile_and_stitch
 Prepares images with cut borders (fit for tiling) and tiled images. Labels are also retranslated based on the tiled output images.
 
 Script name: <br><b>1_data_preparation.py</b> <br><br>
+
+| Arg | Input  | Description            |
+| --- | ------ | ---------------------- |
+| dir | string | Source image directory |
+
 Args: <br>
 --dir [string] <br>
 Source image directory <br>
