@@ -1,12 +1,35 @@
 # tile_and_stitch
 
-### 1. Clone the repo:
+### Clone the repo
 
 ```
 https://github.com/danrustia11/tile_and_stitch
 ```
 
-### 2. Data preparation
+### Sample usage
+
+`
+import tools.image_tiler as tl
+import cv2
+
+# Define a tiler object
+
+tiler = tl.tiler(TILING_SIZE, PADDING)
+
+# Open an image
+
+image = cv2.imread([filename])
+
+# Remove the borders from the image to make it fit for tiling
+
+no_border_image = tiler.remove_borders(image)
+
+# Apply tiling
+
+tiled_images = tiler.tile_image(no_border_image)
+`
+
+### Preparing data using the library
 
 Prepares images with cut borders (fit for tiling) and tiled images. Labels are also retranslated based on the tiled output images.
 
