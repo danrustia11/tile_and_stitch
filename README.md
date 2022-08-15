@@ -8,7 +8,7 @@ https://github.com/danrustia11/tile_and_stitch
 
 ### Sample usage
 
-`
+```
 import tools.image_tiler as tl
 import cv2
 
@@ -27,7 +27,7 @@ no_border_image = tiler.remove_borders(image)
 # Apply tiling
 
 tiled_images = tiler.tile_image(no_border_image)
-`
+```
 
 ### Preparing data using the library
 
